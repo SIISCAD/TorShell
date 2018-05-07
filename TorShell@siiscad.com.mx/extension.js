@@ -43,7 +43,6 @@ function refreshUI() {
 
 function update_proxy_settings() {
     if (isTorActive()) {
-
         Main.Util.trySpawnCommandLine("dconf write /system/proxy/socks/host " + '"' + "'127.0.0.1'" + '"')
         Main.Util.trySpawnCommandLine("dconf write /system/proxy/socks/port 9050")
         Main.Util.trySpawnCommandLine("dconf write /system/proxy/mode " + '"' + "'manual'" + '"')
@@ -118,11 +117,9 @@ function init() {
 function enable() {
     Main.panel._rightBox.insert_child_at_index(button, 0);
     refreshUI();
+    update_proxy_settings();
 }
 
 function disable() {
     Main.panel._rightBox.remove_child(button);
-    if (isTorActive){
-      _toggle_tor()
-    }
 }
