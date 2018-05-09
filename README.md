@@ -9,6 +9,8 @@ This icon shows you if you're running anonymously trought TOR network or not, an
 
 ![screenshots](screenshots/tor_activado.png)
 
+Thats it!
+
 
 
 
