@@ -5,6 +5,7 @@ wget -O /tmp/torShell.zip https://github.com/SIISCAD/TorShell/archive/master.zip
 unzip /tmp/torShell.zip -d /tmp/torShell_masterdir
 rm /tmp/torShell.zip
 mv /tmp/torShell_masterdir/TorShell-master/TorShell@siiscad.com.mx $HOME/.local/share/gnome-shell/extensions
+rm -rf /tmp/torShell_masterdir/
 
 ### ACTIVATE THE EXTENSION IN GNOME-SHEL ###
 
