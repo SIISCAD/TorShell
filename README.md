@@ -11,27 +11,9 @@ This icon shows you if you're running anonymously trought TOR network or not, an
 
 Thats it!
 
-
-
-
-
 ## PREREQUISITES
-### Install TOR service
-In Ubuntu/Debian:
-```
-sudo apt-get install tor
-```
-Fedora/RPM:
-```
-sudo dnf install tor
-```
-Arch:
-
-```
-pacman -S tor
-```
-
-If you don't have wget and unzip install it before running the installation script.
+* Tor package that comes with your distro
+* Wget and unzip to run the installer
 
 ## INSTALATION
 
