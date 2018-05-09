@@ -12,13 +12,17 @@ Fedora/RPM:
 sudo dnf install tor wget unzip
 ```
 Arch:
+
 ```
 pacman -S tor wget unzip
 ```
 
 ## INSTALATION
 
-```curl https://raw.githubusercontent.com/SIISCAD/TorShell/master/install.sh | bash
+As regular user run:
+
+```
+curl https://raw.githubusercontent.com/SIISCAD/TorShell/master/install.sh | bash
 ```
 
 You may have to reload Gnome-Shell in order to appy the changes.
