@@ -1,6 +1,11 @@
 # TorShell
 Easy and convenient way to anonymize your web traffic in your linux box. (Gnome Shell Extension)
 
+## USAGE
+![screenshots](screenshots/tor_desactivado.png) ![screenshots](screenshots/tor_activado.png)
+
+
+
 ## PREREQUISITES
 ### Install TOR service
 In Ubuntu/Debian:
