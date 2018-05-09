@@ -5,17 +5,19 @@ Easy and convenient way to anonymize your web traffic in your linux box. (Gnome 
 ### Install TOR service
 In Ubuntu/Debian:
 ```
-sudo apt-get install tor wget unzip
+sudo apt-get install tor
 ```
 Fedora/RPM:
 ```
-sudo dnf install tor wget unzip
+sudo dnf install tor
 ```
 Arch:
 
 ```
-pacman -S tor wget unzip
+pacman -S tor
 ```
+
+If you don't have wget and unzip install it before running the installation script.
 
 ## INSTALATION
 
