@@ -14,8 +14,8 @@ let action = "start";
 let theme = imports.gi.Gtk.IconTheme.get_default();
 theme.append_search_path(Me.path + "/icons");
 
-const DisabledIcon = 'tor-off-symbolic';
-const EnabledIcon = 'tor-on-symbolic';
+const DisabledIcon = 'torshell-off-symbolic';
+const EnabledIcon = 'torshell-on-symbolic';
 
 function getNumbersOfPkexecProcess() {
     let [resPkExec, outPkExec] = GLib.spawn_command_line_sync("pgrep pkexec -c");
